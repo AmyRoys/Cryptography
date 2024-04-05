@@ -11,4 +11,16 @@ def encrypt(plaintext, shift):
 def decrypt(ciphertext, shift):
     return encrypt(ciphertext, -shift)
 
-print(encrypt("zzzz", 2))
+text = "aaaa"
+encrypted_text = encrypt(text, 2)
+print(encrypted_text)
+
+def brute_force(ciphertext, text):
+    for i in range(26):
+        decrypted_text = decrypt(ciphertext, i)
+        if decrypted_text == text:
+            print("Successfully cracked: ", decrypted_text)
+            return
+    print("Failed to crack the ciphertext")
+
+brute_force(encrypted_text, text)
