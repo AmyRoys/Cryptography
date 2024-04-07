@@ -18,5 +18,5 @@ def brute_force(ciphertext):
         print(f'Shift {shift}: {plaintext.lower()}')
 
 # Call the function with your ciphertext
-brute_force('Ykbxgwl, Khftgl, vhngmkrfxg, exgw fx rhnk xtkl; B vhfx mh unkr Vtxltk, ghm mh iktblx abf. Max xobe matm fxg wh eboxl tymxk maxf; Max zhhw bl hym bgmxkkxw pbma maxbk uhgxl. Lh exm bm ux pbma Vtxltk.')
-#Shift 19: friends, romans, countrymen, lend me your ears; i come to bury caesar, not to praise him. the evil that men do lives after them; the good is oft interred with their bones. so let it be with caesar.
+brute_force('xkazxbpxoppmfofqoxkdfkdcloobsbkdbtfqexqbyvefppfabzljbelqcoljebiipexiifkqebpbzlkcfkbptfqexjlkxozepslfzbzovexslzxkaibqpifmqebaldplctxo')
+#Shift 23: andcaesarsspiritrangingforrevengewithatebyhissidecomehotfromhellshallintheseconfineswithamonarchsvoicecryhavocandletslipthedogsofwar
